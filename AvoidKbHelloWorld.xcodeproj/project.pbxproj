@@ -19,6 +19,12 @@
 		AC5A10B61818C9E10073E965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5A109E1818C9E10073E965 /* UIKit.framework */; };
 		AC5A10BE1818C9E10073E965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC5A10BC1818C9E10073E965 /* InfoPlist.strings */; };
 		AC5A10C01818C9E10073E965 /* AvoidKbHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10BF1818C9E10073E965 /* AvoidKbHelloWorldTests.m */; };
+		AC5A10CC1818CA620073E965 /* ZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10CA1818CA620073E965 /* ZMainViewController.m */; };
+		AC5A10CD1818CA620073E965 /* ZMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5A10CB1818CA620073E965 /* ZMainViewController.xib */; };
+		AC5A10D61818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10CF1818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.m */; };
+		AC5A10D71818CBEE0073E965 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10D11818CBEE0073E965 /* TPKeyboardAvoidingScrollView.m */; };
+		AC5A10D81818CBEE0073E965 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10D31818CBEE0073E965 /* TPKeyboardAvoidingTableView.m */; };
+		AC5A10D91818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A10D51818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,17 @@
 		AC5A10BB1818C9E10073E965 /* AvoidKbHelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvoidKbHelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		AC5A10BD1818C9E10073E965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC5A10BF1818C9E10073E965 /* AvoidKbHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvoidKbHelloWorldTests.m; sourceTree = "<group>"; };
+		AC5A10C91818CA620073E965 /* ZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMainViewController.h; sourceTree = "<group>"; };
+		AC5A10CA1818CA620073E965 /* ZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMainViewController.m; sourceTree = "<group>"; };
+		AC5A10CB1818CA620073E965 /* ZMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMainViewController.xib; sourceTree = "<group>"; };
+		AC5A10CE1818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		AC5A10CF1818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		AC5A10D01818CBEE0073E965 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		AC5A10D11818CBEE0073E965 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		AC5A10D21818CBEE0073E965 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		AC5A10D31818CBEE0073E965 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		AC5A10D41818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		AC5A10D51818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +124,21 @@
 		AC5A10A01818C9E10073E965 /* AvoidKbHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				AC5A10CE1818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.h */,
+				AC5A10CF1818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.m */,
+				AC5A10D01818CBEE0073E965 /* TPKeyboardAvoidingScrollView.h */,
+				AC5A10D11818CBEE0073E965 /* TPKeyboardAvoidingScrollView.m */,
+				AC5A10D21818CBEE0073E965 /* TPKeyboardAvoidingTableView.h */,
+				AC5A10D31818CBEE0073E965 /* TPKeyboardAvoidingTableView.m */,
+				AC5A10D41818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				AC5A10D51818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 				AC5A10A91818C9E10073E965 /* ZAppDelegate.h */,
 				AC5A10AA1818C9E10073E965 /* ZAppDelegate.m */,
 				AC5A10AC1818C9E10073E965 /* Images.xcassets */,
 				AC5A10A11818C9E10073E965 /* Supporting Files */,
+				AC5A10C91818CA620073E965 /* ZMainViewController.h */,
+				AC5A10CA1818CA620073E965 /* ZMainViewController.m */,
+				AC5A10CB1818CA620073E965 /* ZMainViewController.xib */,
 			);
 			path = AvoidKbHelloWorld;
 			sourceTree = "<group>";
@@ -192,6 +220,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Giannandrea Castaldi";
 				TargetAttributes = {
+					AC5A10961818C9E10073E965 = {
+						DevelopmentTeam = CNE6THP288;
+					};
 					AC5A10B11818C9E10073E965 = {
 						TestTargetID = AC5A10961818C9E10073E965;
 					};
@@ -221,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5A10A51818C9E10073E965 /* InfoPlist.strings in Resources */,
+				AC5A10CD1818CA620073E965 /* ZMainViewController.xib in Resources */,
 				AC5A10AD1818C9E10073E965 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5A10CC1818CA620073E965 /* ZMainViewController.m in Sources */,
+				AC5A10D71818CBEE0073E965 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AC5A10A71818C9E10073E965 /* main.m in Sources */,
+				AC5A10D91818CBEE0073E965 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				AC5A10D81818CBEE0073E965 /* TPKeyboardAvoidingTableView.m in Sources */,
+				AC5A10D61818CBEE0073E965 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				AC5A10AB1818C9E10073E965 /* ZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvoidKbHelloWorld/AvoidKbHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "AvoidKbHelloWorld/AvoidKbHelloWorld-Info.plist";
@@ -375,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvoidKbHelloWorld/AvoidKbHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "AvoidKbHelloWorld/AvoidKbHelloWorld-Info.plist";
